@@ -4,14 +4,7 @@ import random
 import sys
 
 def usage():
-    print "033[1;91┈╭━━━━━━━━━━━╮┈ =================================================="
-    print "033[1;91╭╯┈╭━━╮┈╭━━╮┈╰╮ Tools DDoS Attack For Samp, Ultra - Host, Website"
-    print "033[1;91┃┈┃┃╭╮┃┈┃╭╮┃┃┈┃ Version: 1.0.1"
-    print "033[1;91┃┈┃┻┻┻┛┈┗┻┻┻┃┈┃ =================================================="
-    print "033[1;91┃┈┃╭╮┈◢▇◣┈╭╮┃┈┃ Code : By Wz"
-    print "033[1;91╰┳╯┃╰━━┳┳┳╯┃╰┳╯ Usage : python2 k.py <ip> <port> <packet>"
-    print "033[1;91┈┃┈╰━━━┫┃┣━╯┈┃┈ =================================================="
-    print "033[1;91┈┃┈┈┈┈┈╰━╯┈┈┈┃┈ This Tools Is Used For Educational Purpose Only"
+    print "033[1;91python2 k.py ip port packets"
     
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
